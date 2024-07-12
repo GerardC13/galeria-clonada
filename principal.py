@@ -4,6 +4,9 @@ import os
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 
+def comprobar_fondo():
+    pass
+
 EXTENSIONES = ['png', 'jpg', 'jpeg']
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = './static/fondos'
